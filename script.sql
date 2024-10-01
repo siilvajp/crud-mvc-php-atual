@@ -8,4 +8,5 @@ CREATE TABLE livros (
     preco         VARCHAR(255) NOT NULL,
     flag          TINYINT(1) NULL DEFAULT 0,
     data          DATE NOT NULL,
-PRIMARY KEY (nome))
+PRIMARY KEY (nome)
+);
